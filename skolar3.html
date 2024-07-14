@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        *{
+            background-color: rgb(238, 164, 238);
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            margin-top: 65px;
+            margin-bottom: 50px;
+            margin-left: 100px;
+            margin-right: 100px;
+            border: 1px solid black;
+        }
+        #c1{
+            display: flex;
+            flex-direction: row;
+        }
+        #p1{
+            background-color: rgb(216, 119, 195);
+            text-align: center;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        #p2{
+            background-color: rgb(204, 97, 181);
+            text-align: center;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        #c1{
+            background-color: rgb(184, 59, 157);
+        }
+        #p4{
+            background-color: rgb(138, 22, 113);
+            text-align: center;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        #p5{
+            background-color: rgb(99, 5, 78);
+            text-align: center;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        #c1 div{
+            background-color: rgb(184, 59, 157);
+            text-align: center;
+            padding: 9.31%;
+            border: 1px solid black;
+        }
+        h1{
+            text-align: center;
+            color: rgb(99, 9, 79);
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pink World</h1>
+    <div class="container">
+        <div id="p1">1</div>
+        <div id="p2">2</div>
+        <div id="c1">
+            <div id="in1">3i</div>
+            <div id="in2">3j</div>
+            <div id="in3">3k</div>
+            <div id="in4">3j</div>
+            <div id="in5">3k</div>
+        </div>
+        <div id="p4">4</div>
+        <div id="p5">5</div>
+    </div>
+</body>
+</html>
