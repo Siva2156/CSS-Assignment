@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>semantic element</title>
+<style>
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .con{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        justify-content: center;
+    }
+    #l1{
+        text-decoration: none;
+        font-style: oblique;
+        font-size: larger;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 2px 3px 3px rgb(154, 162, 161);
+    }
+    #l2{
+        text-decoration: none;
+        font-style: oblique;
+        font-size: larger;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 2px 3px 3px rgb(208, 195, 195);
+    }
+    #l3{
+        text-decoration: none;
+        font-style: oblique;
+        font-size: larger;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 2px 3px 3px rgb(173, 160, 160);
+    }
+    #l1:hover,#l2:hover,#l3:hover{
+        background-color: aliceblue;
+        box-shadow: 2px 3px 3px rgb(94, 92, 92);
+        transition: all ease-in-out 500ms;
+    }
+    h2{
+        margin-top: 40px;
+    }
+    nav{
+        margin-top: 90px;
+    }
+    article{
+        margin: 100px 200px 100px 200px;
+        font-size: larger;
+        line-height: 30px;
+    }
+    aside{
+        text-align: center;
+        text-decoration: none;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 1px gray;
+        margin: 200px 200px 200px 200px;
+        padding: 20px;
+    }
+    aside:hover{
+        background-color: azure;
+        transition: all ease-in-out 1s;
+    }
+</style>
+</head>
+<body>
+<header>
+    <center>
+<h2>Chennai Institute Of Technology</h2></center>
+<nav>
+    <div class="con">
+    <a id="l1" href="#">Home:</a>
+    <a id="l2" href="#">About:</a>
+    <a id="l3" href="#">contact:</a>
+</div>
+</nav>
+</header>
+<main>
+<article>
+    <p>Chennai Institute of technology, the best engineering college in Chennai was established with the objective of providing quality technical education with adequate industrial exposure than any other engineering colleges in Chennai, caters the needs of the youth with its innovative teaching methods.</p>
+</article>
+</main>
+<aside>
+    <a href="https://www.citchennai.edu.in/">Click Here!</a>
+</aside>
+
+</body>
+</html>
