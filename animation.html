@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>animation</title>
+<style>
+    
+    @keyframes game{
+        0% {background-color: rgb(43, 104, 157); left:0px; top:0px;}
+        25% {background-color: rgb(35, 138, 138); left:200px; top:200px;}
+        50% {background-color: rgb(200, 64, 37); left:0px; top:200px;}
+        100% {background-color: rgb(144, 29, 232); left:0px; top:0px;}
+    }
+    
+    div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: game;
+  animation-duration: 4s;
+  animation-iteration-count: 20;
+}
+</style>
+</head>
+<body>
+   <h1>Animation</h1>
+   <div></div>
+</body>
+</html>
